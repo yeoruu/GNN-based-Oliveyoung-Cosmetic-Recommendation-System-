@@ -17,8 +17,8 @@ def interactive_recommend():
     # 시스템 초기화
     print("\n📚 시스템 초기화 중...")
     recommender = SingleNodeGNNRecommender(
-        products_path='final_products.csv',
-        reviews_path='final_total_reviews.csv'
+        products_path='merge_final/final_products.csv',
+        reviews_path='merge_final/final_total_reviews.csv'
     )
     
     # 모델 로드 시도
