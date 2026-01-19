@@ -1166,7 +1166,7 @@ if __name__ == "__main__":
     test_mode = "--test" in args
     
     # start_idx, end_idx 파라미터 파싱
-    start_idx = 7
+    start_idx = 0
     end_idx = None
     for arg in args:
         if arg.startswith("--start="):

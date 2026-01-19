@@ -4,8 +4,8 @@ import time
 import pandas as pd
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 
-INPUT_TABLE2 = "table2_essence_basic.csv"
-OUT_TABLE1 = "table1_essence_reviews200.csv"
+INPUT_TABLE2 = "table2_cream_basic.csv"
+OUT_TABLE1 = "table1_cream_reviews200.csv"
 
 REVIEWS_PER_PRODUCT = 100
 POLITE_SLEEP_SEC = 0.9

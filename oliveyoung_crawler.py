@@ -4,9 +4,9 @@ import time
 import pandas as pd
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 
-CATEGORY = "에센스/세럼/앰플"
+CATEGORY = "크림"
 START_URL = "https://www.oliveyoung.co.kr/store/display/getMCategoryList.do?dispCatNo=100000100010014&isLoginCnt=0&aShowCnt=0&bShowCnt=0&cShowCnt=0&gateCd=Drawer&trackingCd=Cat100000100010014_MID&trackingCd=Cat100000100010014_MID&t_page=%EB%93%9C%EB%A1%9C%EC%9A%B0_%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC&t_click=%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%ED%83%AD_%EC%A4%91%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC&t_1st_category_type=%EB%8C%80_%EC%8A%A4%ED%82%A8%EC%BC%80%EC%96%B4&t_2nd_category_type=%EC%A4%91_%EC%97%90%EC%84%BC%EC%8A%A4%2F%EC%84%B8%EB%9F%BC%2F%EC%95%B0%ED%94%8C"
-OUT_CSV = "table2_essence_basic.csv"
+OUT_CSV = "table2_cream_basic.csv"
 
 MAX_SCROLL_PER_PAGE = 30      
 SCROLL_WAIT_MS = 650
